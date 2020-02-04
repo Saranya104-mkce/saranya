@@ -1,0 +1,11 @@
+a=input()
+b=int(a)
+c=0
+for i in range(len(a)):
+    d=int(a[i])**len(a)
+    c+=d
+if(c==b):
+    print("yes")
+else:
+    print("no")
+    
