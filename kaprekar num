@@ -1,0 +1,13 @@
+a=int(input())
+b=a**2
+c=str(b)
+d=len(c)//2
+e=c[:d]
+f=c[d:]
+x=int(e)
+y=int(f)
+g=x+y
+if(g==a):
+    print("kaprekar num")
+else:
+    print("not kaprekar num")
