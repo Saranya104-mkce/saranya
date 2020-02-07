@@ -1,0 +1,20 @@
+def bill(x):
+    g=[]
+    if x[0]=="airtel" and x[-1]=="amazon":
+        bill=int(x[2])*11
+        g.append(bill)
+    elif x[0]=="airtel" and x[-1]=="paytm":
+        bill=int(x[2])*11
+        cost=bill*0.1
+        fbill=round(bill-cost)
+        g.append(fbill)
+    elif x[0]=="jio":
+        bill=int(x[2])*10
+        g.append(bill)
+    print(x[1],g)
+a=list(map(str,input().split(" ")))
+b=list(map(str,input().split(" ")))
+c=list(map(str,input().split(" ")))
+bill(a)
+bill(b)
+bill(c)
