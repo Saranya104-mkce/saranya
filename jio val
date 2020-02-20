@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+ int days,msg;
+ float data;
+ scanf("%d%d%f",&days,&msg,&data);
+ if(days==84)
+ {
+    printf("last date\n");
+    printf("remaining msg:%d\n",100-msg);
+    printf("remaining data :%fMB\n",1.5-data);
+ }
+  else if(days<84)
+ {
+    printf("remaining date ;%d\n",84-days);
+    printf("remaining msg:%d\n",100-msg);
+    printf("remaining data :%fMB\n",1.5-data);
+ }
+ else
+ {
+   printf("Expired");
+ }
+ }
