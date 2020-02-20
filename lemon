@@ -1,0 +1,6 @@
+#include<stdio.h>
+void main()
+{
+    int a,b,c;
+    scanf("%d",&a);
+    b=((a>21)?printf("%d lemon extra",c=a-21):(a<21)?printf("%d lemon have to buy",c=21-a):printf("%d have equal lemon",))
