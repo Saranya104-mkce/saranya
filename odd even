@@ -1,0 +1,12 @@
+n=list(map(int,(input())))
+b=[]
+c=[]
+for i in n:
+    if i%2==0:
+        b.append(i)
+    else:
+        c.append(i)
+for i in c:
+    print(i,end="")
+for i in b:
+    print(i,end="")
