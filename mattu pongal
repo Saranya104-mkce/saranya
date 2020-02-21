@@ -1,0 +1,8 @@
+n=int(input())
+print(n.bit_length()*225)
+
+
+
+
+7430427
+5175
