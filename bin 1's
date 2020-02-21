@@ -1,0 +1,18 @@
+n=int(input())
+a=list(map(int,input().split()))
+l=[]
+m=[]
+for i in a:
+    b=bin(i)[2:]
+    l.append(b)
+b=0
+for j in l:
+    m.append(j.count('1'))
+print(max(m))
+
+
+
+7
+1 2 3 4 5 6 7
+op
+3
