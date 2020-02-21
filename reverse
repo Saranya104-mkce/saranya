@@ -1,0 +1,12 @@
+a=int(input())
+rev=0
+while(a>=1):
+    rem=a%10
+    a//=10
+    rev=rev*10+rem
+print(rev)
+    
+
+
+23546879
+97864532
