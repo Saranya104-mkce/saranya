@@ -1,0 +1,4 @@
+n=int(input())
+i=n-1
+m=4**i+i
+print(m)
