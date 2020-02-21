@@ -1,0 +1,13 @@
+a,b=map(int,input().split())
+c=a+b
+d=a-b
+e=a*b
+f=a/b
+g=a**b
+h=a%b
+i=a//b
+print(c,d,e,f,g,h,i)
+
+ip&op:
+10 2
+12 8 20 5.0 100 0 5
