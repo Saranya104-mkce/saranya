@@ -1,0 +1,17 @@
+a=input()
+b=a.count("@")
+c=0
+if b==1:
+    c=a.partition("@")
+    if len(c[0])>=6 and len(c[2])>=3 and a[-4:]==".com":
+        print("Valid")
+    else:
+        print("Invalid")
+else:
+    print("Invalid")
+    
+    
+    
+    xcvgyguyfsyfsytf@yahoo.in                                                                                               
+Invalid          
+    
