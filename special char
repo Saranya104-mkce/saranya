@@ -1,0 +1,9 @@
+a=input()
+b=""
+special=",.?*&@#$%!:;''[]{}()^<>+/"
+for i in a:
+    if i not in special:
+        b+=i
+print(b)
+
+    
