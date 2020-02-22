@@ -1,0 +1,14 @@
+a=int(input())
+b=list(map(int,input().split()))
+c=sum(b)
+print(c)
+for i in b:
+    d=i
+    e=c-d
+    print(e,end=" ")
+    
+    
+    5
+    10 30 40 20 60
+    op
+    150 130 120 140 100
