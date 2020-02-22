@@ -1,0 +1,19 @@
+s=input()
+t=0
+for i in s:
+    if(i=='{'):
+        t+=1
+    elif(i=='['):
+        t+=1
+    elif(i=='('):
+        t+=1
+    elif(i=='}'):
+        t-=1
+    elif(i==']'):
+        t-=1
+    elif(i==')'):
+        t-=1      
+if(t==0):
+    print("Balanced")
+else:
+    print("Unbalanced")
