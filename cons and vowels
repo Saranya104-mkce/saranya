@@ -1,0 +1,15 @@
+a=input()
+d=""
+c=""
+b=["a","e","i","o","u","A","E","I","O","U"]
+for i in a:
+    if(i==" "):
+        c+=i
+        d+=i
+    else:
+        if i not in b:
+           c+=i
+        elif i in b:
+           d+=i
+print(d)
+print(c)
