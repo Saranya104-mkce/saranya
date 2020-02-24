@@ -1,0 +1,15 @@
+str=input()
+d=int(input())
+lf=str[0:d]
+ls=str[d:]
+rf=str[0:len(str)-d]
+rs=str[len(str)-d:]
+print("left rot:",(ls+lf))
+print("rig rot:",(rs+rf))
+
+ip:
+pyhon
+1
+op:
+ythonp
+npytho
