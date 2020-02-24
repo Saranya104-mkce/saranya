@@ -1,0 +1,15 @@
+s=input()
+count=0
+a=""
+for i in s:
+    if (i>='A' and i<='Z') or (i>='a' and i<='z'):
+        a+=i
+    else:
+        count+=int(i)
+print(a+str(count))
+
+
+op:
+aCd34
+ip:
+aCd7
