@@ -1,0 +1,12 @@
+a=set(map(str,input().split(",")))
+z=list(map(str,input()))
+b="c","e","r","s","u"
+c=[]
+for i in a:
+    for j in i:
+        if j in b:
+            c.append(j)
+if (len(z)-1)==len(c):
+    print("true")
+else:
+    print("false")
